@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-size: cover;
+}
+.headtag{
+float:right;
+margin-top: 33px;
+margin-right: 55px;
+}
+.headtag a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+    margin-right: 8px;
+}
+.headtag a:hover{
+    background-color: teal;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    padding: 100px;
+}
+.sidebar li{
+    list-style: square;
+    margin-bottom: 5px;
+}
+.login{
+    float: right;
+    border: 2px solid black;
+    background-color: wheat;
+    height: 15em;
+    margin-top: 5%;
+    margin-right: 2%;
+    padding: 30px;
+}
+.login h2{
+    text-align:center;
+}
+.login input{
+    height:1.5em;
+}
+.login#login-button{
+    width: 100%;
+    height:1.8em;
+    color:white;
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+}
+.container{
+    
+    margin-top: 7%;
+    margin-left: 3%;
+}
+.pbox{
+border: 3px solid white;
+width: 22%;
+float: left;
+margin-left: 10px;
+height: 25em;
+padding: 5px;
+background-color: gray;
+}
+.pbox h3{
+    text-align:center;
+
+}
+.pbox p{
+    line-height: 1.25em;
+    text-align:justify ;
+}
+.pbox a{
+    text-decoration:none;
+    color:red;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 1.5em;
+    margin-top: 29%;
+}
+footer h3{
+    text-align :center;
+}
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+  }
+  /* Style the container for inputs */
+.container {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* The message box is shown when the user clicks on the password field */
+  #message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Add a green text color and a checkmark when the requirements are right */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+    content: "&#10004;";
+  }
+  
+  /* Add a red text color and an "x" icon when the requirements are wrong */
+  .invalid {
+    color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
+}
+background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+meter::-webkit-meter-bar {
+  background: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}

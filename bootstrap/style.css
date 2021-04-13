@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.myMargin{
+    margin: 25px;
+}
+.pbox{
+    border: 3px solid white;
+    width: 25%;
+    float: left;
+    margin-left: 10px;
+    height: 22em;
+    padding: 5px;
+    background-color: gray;
+    }
+    .container{
+    
+        margin-top: 7%;
+        margin-left: 3%;
+    }
+    .pbox h3{
+        text-align:center;
+    
+    }
+    .pbox p{
+        line-height: 1.25em;
+        text-align:justify ;
+    }
+    .pbox a{
+        text-decoration:none;
+    color:red;
+    }
